@@ -1,0 +1,17 @@
+.avatar {
+  animation: avatarAnim 2.5s infinite ease-in-out;
+}
+
+@keyframes avatarAnim {
+  0% {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(5deg) scale(1.05);
+  }
+
+  100% {
+    transform: rotate(-5deg);
+  }
+}
