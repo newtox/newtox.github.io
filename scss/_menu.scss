@@ -78,10 +78,10 @@
       transform: translate3d(0, 0, 0);
     }
 
-    .portrait {
+    .avatar {
       width: 250px;
       height: 250px;
-      background: url('../img/portrait.jpg');
+      background: url("../img/avatar.png");
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
@@ -112,7 +112,8 @@
     @include easeOut;
 
     &:hover {
-      color: $secondary-color;
+      color: $hover-color;
+      transform: scale(1.25);
     }
   }
 }
