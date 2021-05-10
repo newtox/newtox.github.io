@@ -244,14 +244,17 @@ main#home h1 {
 
 .about-info .section-1 {
   grid-area: section1;
+  height: auto;
 }
 
 .about-info .section-2 {
   grid-area: section2;
+  height: auto;
 }
 
 .about-info .section-3 {
   grid-area: section3;
+  height: 50%;
 }
 
 .about-info .section {
@@ -392,6 +395,10 @@ main#home h1 {
   .about-info {
     grid-template-areas: "bioimage""bio""section1""section2""section3";
     grid-template-columns: 1fr;
+  }
+
+  .about-info .section-3 {
+    height: auto;
   }
 
   .socials {
